@@ -1,0 +1,144 @@
+/*common start*/
+body{
+    margin: 0;
+    padding: 0;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #0F2656 ;
+}
+/*common end*/
+/*header start*/
+header{
+    border-bottom: 3px solid  #EEF0F3;
+padding: 10px 0 7px;
+}
+.wrapper {
+  overflow: hidden;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.logo {
+    width: 10%;
+    
+    float: left;
+}
+.logo img{
+width: 100%;
+}
+.menu {
+width: 50%;
+
+float: right;
+}
+.menu ul{
+    margin-top: 22px;
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+    font-size: 18px;
+    color: #0F2656; 
+    text-decoration: none;
+margin:0 25px;
+display:inline-block;
+transition: .3s;
+}
+.menu ul li a:hover{
+    color: #008aff;
+}
+.menu ul li:last-child a{
+margin-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner {
+    padding: 50px 0;
+}
+
+.wrapper2 {
+    width:50% ;
+    margin: 0 auto;
+  
+}
+
+.b_content {
+    text-align: center;
+}
+.b_content h1{
+    font-size: 50px;
+margin: 0;
+}
+.sky{
+    color: #008aff;
+
+}
+.b_content p{
+line-height: 25px;
+margin:30px 0 ;
+}
+
+.b_img { width 75%
+    margin: 0 auto;
+}
+.b_img img{
+    width: 100%;
+}
+/*banner end*/
+/*help start*/
+.container {
+
+margin:60px 0;
+overflow: hidden;
+}
+.container p{
+    line-height: 25px;
+text-align: center;
+letter-spacing: 1px;
+
+padding-top :10px;
+}
+.container h2{
+ text-align: center;
+}
+.box1 {
+    background-color: #FDEBED;
+    width: 26%;
+    height: 415px;
+     float: left;
+     margin-left: 110px;
+     margin right: 30px;
+     
+}
+.box2 {
+    background-color: #EBF9F4;
+    width: 26%;
+    height: 415px;
+ float: left;
+ margin-left: 30px;
+ margin right: 30px;
+}
+.box3 {
+    background-color: #FFF7E8;
+    width: 26%;
+    height: 415px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 120px;
+}
+/*help end*/
+/*footer start*/
+.footer{
+    background-color: #008AFF;
+   height: 70px;
+}
+.footer p{
+    text-align: center;
+   padding-top: 25px;
+}
+
+/*footer end*/
